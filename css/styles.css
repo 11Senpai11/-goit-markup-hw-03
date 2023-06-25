@@ -55,7 +55,7 @@ header {
 }
 .nav-container {
     display: flex;
-    gap: 76px;
+   
     align-items: center;
 }
 .nav-list-container {
@@ -119,8 +119,9 @@ font-family: 'Raleway',sans-serif;
 }
 .hero-title {
     max-width: 496px;
-    padding-top: 186px;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right:  auto;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -131,6 +132,8 @@ font-family: 'Raleway',sans-serif;
 }
 .hero-button {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -272,6 +275,7 @@ background-color: #2E2F42;
         color: #4d5ae5;
 }
 .footer-paragraph {
+    max-width: 264px;
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02em;
